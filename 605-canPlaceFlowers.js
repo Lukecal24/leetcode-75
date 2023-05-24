@@ -32,9 +32,6 @@
  * @return {boolean}
  */
 var canPlaceFlowers = function(flowerbed, n) {
-
-    const result = [];
-
     for(let i = 0; i < flowerbed.length; i++){
         if((flowerbed[i] === 0) &&
             (i === 0 || flowerbed[i - 1] === 0) &&
